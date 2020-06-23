@@ -1,0 +1,5 @@
+add_executable(telnet_client telnet_client.c)
+target_link_libraries(telnet_client yolanda)
+
+add_executable(telnet_server telnet_server.c)
+target_link_libraries(telnet_server yolanda)
